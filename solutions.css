@@ -130,7 +130,7 @@
 }
 
 .ex-13-top-white {
-    animation: muoviti3 2s linear infinite;
+    animation: muoviti3 5s linear infinite;
 }
 
 @keyframes muoviti3 {
@@ -141,7 +141,7 @@
 
     45% {
         left: 80%;
-        bottom: -10%;
+        bottom: 110%;
     }
 
     90% {
@@ -157,12 +157,12 @@
 }
 
 .ex-13-bottom-white {
-    animation: muoviti4 2s linear infinite;
+    animation: muoviti4 5s linear infinite;
 }
 
 @keyframes muoviti4 {
 
-    25% {
+    30% {
         right: 80%;
     }
 
@@ -171,14 +171,19 @@
         top: -10%;
     }
 
-    90% {
+    75% {
+        left: 50%;
         top: -10%;
-        left: -10%;
+    }
+
+    90% {
+        left: 80%;
+        top: -10%;
     }
 
     100% {
-        top: -10%;
-        right: 90%;
+        left: 80%;
+        bottom: -10%;
     }
 
 }
