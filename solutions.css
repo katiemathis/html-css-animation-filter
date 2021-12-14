@@ -7,7 +7,7 @@
 }
 
 .ex-2-square {
-    transition: 2s;
+    transform: 2s;
 }
 
 .ex-2-square:active {
@@ -30,3 +30,18 @@
 .ex-4-square:hover {
     opacity: 0;
 }
+
+.ex-5-square {
+    transition: 0.5s;
+}
+
+.ex-5-square:hover {
+    height: 100px;
+    width: 100px;
+}
+
+.ex-5-square:active {
+    height: 30px;
+    width: 30px;
+}
+
