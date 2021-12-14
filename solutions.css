@@ -93,13 +93,92 @@
 }
 
 .ex-11-icon:hover {
-    animation: spin 1s linear;
+    animation: spinning 1s linear;
 
 }
 
-@keyframes spin {
+@keyframes spinning {
     75% {
         transform: rotate(.75turn);
     }
     
+}
+
+.ex-12-top-white {
+    animation: muoviti 2s linear infinite;
+}
+
+@keyframes muoviti {
+
+    100% {
+        left: 70%;
+    }
+
+
+}
+
+.ex-12-bottom-white {
+    animation: muoviti2 2s linear infinite;
+}
+
+@keyframes muoviti2 {
+
+    100% {
+        right: 70%;
+    }
+
+}
+
+.ex-13-top-white {
+    animation: muoviti3 2s linear infinite;
+}
+
+@keyframes muoviti3 {
+
+    25% {
+        left: 80%;
+    }
+
+    45% {
+        left: 80%;
+        bottom: -10%;
+    }
+
+    90% {
+        bottom: -10%;
+        right: -10%;
+    }
+
+    100% {
+        bottom: -10%;
+        right: 10%;
+    }
+
+}
+
+.ex-13-bottom-white {
+    animation: muoviti4 2s linear infinite;
+}
+
+@keyframes muoviti4 {
+
+    25% {
+        right: 80%;
+    }
+
+    45% {
+        right: 80%;
+        top: -10%;
+    }
+
+    90% {
+        top: -10%;
+        left: -10%;
+    }
+
+    100% {
+        top: -10%;
+        right: 90%;
+    }
+
 }
